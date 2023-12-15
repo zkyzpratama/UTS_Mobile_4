@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">UTS Kelompok 4</string>
+    <string name="list">List</string>
+    <string name="disasters_name">Bencana Alam</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Gempa Bumi</item>
+        <item>Banjir</item>
+        <item>Angin Tornado</item>
+        <item>Tsunami</item>
+        <item>Kebakaran Hutan</item>
+        <item>Letusan Gunung Berapi</item>
+        <item>Dan Naga</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Dalam pengertian yang paling umum, kata gempa bumi digunakan untuk menggambarkan peristiwa seismik apa pun, baik yang terjadi secara alami maupun yang disebabkan oleh manusia, yang menghasilkan gelombang seismik. Titik awal terjadinya gempa bumi disebut hiposentrum atau fokus.</item>
+        <item>Banjir adalah peristiwa bencana alam yang terjadi ketika aliran air yang berlebihan merendam daratan. Pengarahan banjir Uni Eropa mengartikan banjir sebagai perendaman sementara oleh air pada daratan yang biasanya tidak terendam air.</item>
+        <item>Tornado merupakan pusaran angin bukan awan kondensasi. awan corong merupakan perwujudan dari corong kondensasi yang tanpa disertai angin kencang di permukaannya. Tidak semua awan corong menjadi sebuah tornado.</item>
+        <item>Tsunami merupakan gelombang air laut besar yang dipicu oleh pusaran air bawah laut karena pergeseran lempeng, tanah longsor, erupsi gunungapi, dan jatuhnya meteor.</item>
+        <item>Kebakaran hutan dan lahan atau karhutla adalah suatu peristiwa terbakarnya hutan dan/atau lahan, baik secara alami maupun oleh perbuatan manusia, sehingga mengakibatkan kerusakan lingkungan yang menimbukan kerugian ekologi, ekonomi, sosial budaya dan politik.</item>
+        <item>Letusan gunung berapi merupakan peristiwa yang terjadi akibat magma di dalam perut bumi yang keluar oleh gas yang bertekanan tinggi. Peristiwa ini berhubungan dengan naiknya magma putih dari dalam perut bumi. Aktifitas magma yang mempunyai suhu yang sangat tinggi di dalam perut bumi berusaha keluar sehingga dapat terjadi retakan-retakan dan pergeseran lempeng kulit bumi. Magma yang keluar dari perut gunung berapi adalah gunung yang sedang meletus atau vulkanisme.</item>
+        <item>Dan Naga</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/earthquake</item>
+        <item>@drawable/flood</item>
+        <item>@drawable/tornado</item>
+        <item>@drawable/tsunami</item>
+        <item>@drawable/wildfires</item>
+        <item>@drawable/volcanic</item>
+        <item>@drawable/naga</item>
+    </integer-array>
+</resources>
+
