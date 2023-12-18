@@ -1,4 +1,4 @@
-package com.kelompok4.uts;
+package com.kelompok4.uts.controller;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
+import com.kelompok4.uts.model.Disaster;
+import com.kelompok4.uts.R;
 
 import java.util.ArrayList;
 
@@ -38,10 +39,6 @@ public class ListDisasterAdapter extends RecyclerView.Adapter<ListDisasterAdapte
         holder.imgPhoto.setImageResource(disaster.getPhoto());
         holder.tvName.setText(disaster.getName());
         holder.tvDescription.setText(disaster.getDescription());
-        holder.itemView.setOnClickListener(v -> {
-            Toast.makeText(holder.itemView.getContext(), "Kamu memilih " + listDisaster.get(holder.getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
-            onItemClickCallback.onItemClicked(listDisaster.get(holder.getAdapterPosition()));
-        });
     }
     public interface OnItemClickCallback {
         void onItemClicked(Disaster data);

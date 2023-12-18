@@ -1,4 +1,4 @@
-package com.kelompok4.uts;
+package com.kelompok4.uts.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -42,7 +42,7 @@ public class Disaster implements Parcelable {
         dest.writeString(this.description);
         dest.writeInt(this.photo);
     }
-    Disaster(){
+    public Disaster(){
     }
     private Disaster(Parcel in) {
         this.name = in.readString();
