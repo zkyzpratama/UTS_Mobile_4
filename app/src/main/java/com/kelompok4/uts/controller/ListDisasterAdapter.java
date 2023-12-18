@@ -39,7 +39,11 @@ public class ListDisasterAdapter extends RecyclerView.Adapter<ListDisasterAdapte
         holder.imgPhoto.setImageResource(disaster.getPhoto());
         holder.tvName.setText(disaster.getName());
         holder.tvDescription.setText(disaster.getDescription());
+        holder.itemView.setOnClickListener(v -> {
+            onItemClickCallback.onItemClicked(listDisaster.get(holder.getAdapterPosition()));
+        });
     }
+
     public interface OnItemClickCallback {
         void onItemClicked(Disaster data);
     }

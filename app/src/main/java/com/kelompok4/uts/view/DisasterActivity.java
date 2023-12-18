@@ -61,6 +61,5 @@ public class DisasterActivity extends AppCompatActivity {
         intent.putExtra("disaster_photo", disaster.getPhoto());
 
         startActivity(intent);
-        Toast.makeText(this, "Kamu memilih " + disaster.getName(), Toast.LENGTH_SHORT).show();
     }
 }
